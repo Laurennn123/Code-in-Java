@@ -1,0 +1,29 @@
+<!-- 
+--HTML Element--
+
+Open-Closing Tag
+Header<h1> to <h6> only.size header or heading level start from 1 to 6 bigger to smaller.
+<center> for center alignment
+<p> is for paragraph
+<em> for italicize the font
+<strong> for bold the character
+<ul> unordered list for bullet list <li> is for list item that should under <ul>
+<ol> ordered list which 1,2 and so on, can attribute "start" and "type"
+<a> is for anchor to direct to another page or site
+<table><thead><tbody<tfoot> <tr> and <td> like a paragraph but in formal 
+
+
+
+
+Self-Closing Tag (Others are have some attribute)
+<br> is for the line break
+<hr> is for horizontal line
+<hr size="1" noshade> with attribute
+<meta charset="utf-8"> is for unicode
+
+
+
+
+
+
+-->
