@@ -1,5 +1,5 @@
 <!-- 
---HTML Element--
+--HTML Elements and Notes--
 
 Open-Closing Tag
 Header<h1> to <h6> only.size header or heading level start from 1 to 6 bigger to smaller.
@@ -11,8 +11,10 @@ Header<h1> to <h6> only.size header or heading level start from 1 to 6 bigger to
 <ol> ordered list which 1,2 and so on, can attribute "start" and "type"
 <a> is for anchor to direct to another page or site
 <table><thead><tbody<tfoot> <tr> and <td> like a paragraph but in formal 
-
-
+<form> asking user to input but in website <enctype> "text/plain" forming of plain tetxt  
+<textarea> a area inputting of text that in a box
+<head>
+<u>underlining the word </u>
 
 
 Self-Closing Tag (Others are have some attribute)
@@ -20,9 +22,51 @@ Self-Closing Tag (Others are have some attribute)
 <hr> is for horizontal line
 <hr size="1" noshade> with attribute
 <meta charset="utf-8"> is for unicode
+/*<input> using for the form = <form> that has many attributes for obtaining data
+"mailto:" use of inside of the action that you want to email    */
+
+CSS Elements and Notes
+
+CSS CODE colorhunt.co for css pick of color which hexvalue
+CSS RULE INLINE>INTERNAL>EXTERNAL
+Always use the external for the styling 
+<body = can have attributes like style="background-color: then decide what color">
+<style> for the <head> to not copy paste all the properties on each one
+:hover when you hover on some text or pic it changes
+
+<link rel="icon" href="favicon.ico">
 
 
+OPEN CLOSING TAG 
+<div class""> </div> = content division element
+<span> can edit or select some letter in a paragraph like underlining or styling
 
+common block elements (paragraph,h1-h6,div,list items ol-ul-li, form)
+common inline elements (spans,images, anchors)
+display: inline,block inline-block, none
+cannot change the width if its inline, none removing the element
+	
+visibility: hidden and visible;
+
+/*EXAMPLE OF FALLBACK ( FONT STYLE) */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+EMBEDDING SELECTING FONT ON GOOGLE FONT AND COPYING THE CODE
+TYPOGRAPHY FOR DESIGN OF THE FONT(SERIF FONT FOR AUTHORITATIVE
+
+font-size: 90px; 16px = 100% = 1em (use rem most least error-prone when applying fontsize but when it comes on margin use pixel)
+
+Position property(static,relative,absolute and fixed)
+static is the default
+when relative you just put margin on the position by coordinates
+if absolute you will put exactly of position by coordinates
+fixed it stays the content on its position by coordinates example on when dragging
+
+
+The Box Model
+{padding : 20;} to increase the size of the box
+{margin : 10;} outside of the box
+{border : solid;} border of the box
+circle short hand identifying its all four sides {border-width : 0,10,20,30;}
 
 
 
