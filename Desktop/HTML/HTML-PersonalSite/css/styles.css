@@ -1,0 +1,40 @@
+/* EXTERNAL CSS */
+/*****TAG SELECTOR*****/
+  body{
+    background-color: #DEF5E5;
+  }
+
+  h1{
+    color: #66BFBF;
+  }
+
+  h3{
+    color: #66BFBF;
+  }
+
+  hr{
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 5%;
+  }
+
+  .mypicture:hover{
+    background-color: green;
+  }
+/*CLASS SELECTOR
+  .mypicture{
+    background-color: green;
+    class="mypicture circular"
+    .circular{
+    border-radius: 100%;
+  }
+  }
+*/
+
+/**************ID SELECTOR***************/
+/*#skills{ only one in particular page
+  it cannot use the same identity name on same page
+  background-color: red;
+}*/
