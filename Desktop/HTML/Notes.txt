@@ -51,7 +51,10 @@ visibility: hidden and visible;
 /*EXAMPLE OF FALLBACK ( FONT STYLE) */
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 EMBEDDING SELECTING FONT ON GOOGLE FONT AND COPYING THE CODE
-TYPOGRAPHY FOR DESIGN OF THE FONT(SERIF FONT FOR AUTHORITATIVE
+
+TYPOGRAPHY FOR DESIGN OF THE FONT(SERIF FONT FOR AUTHORITATIVE AND SAN-SERIF MORE APPROACHABLE WHICH THEY HAVE TYPEFACE LIKE GILL SANS, TAHOMA, VERDANA THAT CAN USE FOR BODY TYPES)
+USE TWO FONTS AT A TIME IN A POSTER OR A WEBSITE
+CHOOSE SERIF OR SAN SERIF FOR PROFESSIONAL DESIGN THAT APPROACHABLE FOR READER
 
 font-size: 90px; 16px = 100% = 1em (use rem most least error-prone when applying fontsize but when it comes on margin use pixel)
 
@@ -60,14 +63,72 @@ static is the default
 when relative you just put margin on the position by coordinates
 if absolute you will put exactly of position by coordinates
 fixed it stays the content on its position by coordinates example on when dragging
-
+float: - to float image that wrapped in text not inline or inline block 
+(DONT USE IT FOR POSITIONING use for the cases of wrapping text)
+clear: - to antifloat of anything on default behavior that its wrapped 
 
 The Box Model
 {padding : 20;} to increase the size of the box
 {margin : 10;} outside of the box
 {border : solid;} border of the box
-circle short hand identifying its all four sides {border-width : 0,10,20,30;}
+circle shorthands identifying its all four sides {border-width : 0,10,20,30;}
+
+when centering the elements text-align: center; then if have width: 10%; use margin like the circle shorthands margin: 10px auto;
+
+giving value in a line height without any units.
+
+
+Javascript
+
+javscript that telling on elements in html that how it should do 
+
+FB TWIT SKYPE - ANDREESSEN HOROWITZ
+mosiac is the first browser by marc then next is netscape (the beginning of web browsing)
+Brendan Eich who create the JS in 10days
+
+Livescript -> Jscript -> ECMAscript
+
+FUNCTION or KEYWORD
+
+alert("HELLO"); = pop up on the screen
+typeof();= determine what data type
+prompt(); = asking the user 
+var = means variable. example of syntax var myFaveNumber = 6; to change the store in variable no need to repeat the keyword just type what name of the variable like 
+myFaveNumber = 7; then it is 7
+
+// = comment
+alert("My name is " + myName + " and my favorite number is " + yourNumber); 
+syntax that so many spaces
+
+
+data types(String,numbers and boolean)
+
+naming of variables = use the camel casing lowercase then next is capitalized
+
+concatenation is the plus sign combining of the variables or the others
+
+
+ATTRIBUTES (KEYWORD) = can attributes in close parenthesis just like this
+alert(prompt("Introduce Yourself").slice(0,140)); 
+
+length = looking of how many characters inside of a String
+slice = slicing the characters example: var name = "Lauren"; name.slice(0,4); the output is "Laur" it starts with zero tat ends up on four in short to know the output the ending position minus the start position.
 
 
 
 -->
+
+SOLVED CHALLENGE
+
+JS
+
+var writtenChar = prompt("Introduce Yourself");
+var written = writtenChar.length;
+// var limitOfChar = 224;
+// alert("You have written " + written + " characters, you have -" + (limitOfChar-written) + " characters left.");
+var slice = writtenChar.slice(0,140);
+var test = "LAUREN ANDRE LAUREN ANDRE LAUREN ANDRE LAUREN ANDRE  LAUREN ANDRE  LAUREN ANDRE  LAUREN ANDRE  LAUREN ANDRE  LAUREN ANDRE  LAUREN ANDRE  LAU0";
+alert("THIS IS ONLY THE LIMIT :" + slice + test.length);
+
+can apply this way
+alert(prompt("Introduce Yourself").slice(0,140));
