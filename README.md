@@ -1,2 +1,2 @@
-Journey of Programming
+# Journey of Programming
 Java, HTML and CSS.
